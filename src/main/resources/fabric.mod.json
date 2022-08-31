@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "pteroclient",
+  "version": "${version}",
+  "name": "PteroClient",
+  "description": "",
+  "authors": [
+    "Chloe"
+  ],
+  "contact": {
+    "website": "https://chloecdn.de/"
+  },
+  "license": "MIT",
+  "icon": "assets/pteroclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "de.chloecdn.pteroclient.Client"
+    ]
+  },
+  "mixins": [
+    "pteroclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
